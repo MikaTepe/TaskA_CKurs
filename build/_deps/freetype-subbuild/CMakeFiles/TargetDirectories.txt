@@ -1,0 +1,3 @@
+/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
+/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-subbuild/CMakeFiles/edit_cache.dir
+/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-subbuild/CMakeFiles/rebuild_cache.dir
