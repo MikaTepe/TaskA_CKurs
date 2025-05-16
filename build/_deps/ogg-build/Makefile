@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
+CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build
+CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CPackSourceConfig.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,21 +152,21 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-build//CMakeFiles/progress.marks
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-build//CMakeFiles/progress.marks
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-build//CMakeFiles/progress.marks
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-build//CMakeFiles/progress.marks
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
 clean:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/clean
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -175,22 +175,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/preinstall
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/preinstall
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/ogg-build/CMakeFiles/ogg.dir/rule:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/CMakeFiles/ogg.dir/rule
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ogg-build/CMakeFiles/ogg.dir/rule
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ ogg: _deps/ogg-build/CMakeFiles/ogg.dir/rule
 
 # fast build rule for target.
 ogg/fast:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/build
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/build
 .PHONY : ogg/fast
 
 src/bitwise.o: src/bitwise.c.o
@@ -207,7 +207,7 @@ src/bitwise.o: src/bitwise.c.o
 
 # target to build an object file
 src/bitwise.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.o
 .PHONY : src/bitwise.c.o
 
 src/bitwise.i: src/bitwise.c.i
@@ -215,7 +215,7 @@ src/bitwise.i: src/bitwise.c.i
 
 # target to preprocess a source file
 src/bitwise.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.i
 .PHONY : src/bitwise.c.i
 
 src/bitwise.s: src/bitwise.c.s
@@ -223,7 +223,7 @@ src/bitwise.s: src/bitwise.c.s
 
 # target to generate assembly for a file
 src/bitwise.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.s
 .PHONY : src/bitwise.c.s
 
 src/framing.o: src/framing.c.o
@@ -231,7 +231,7 @@ src/framing.o: src/framing.c.o
 
 # target to build an object file
 src/framing.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.o
 .PHONY : src/framing.c.o
 
 src/framing.i: src/framing.c.i
@@ -239,7 +239,7 @@ src/framing.i: src/framing.c.i
 
 # target to preprocess a source file
 src/framing.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.i
 .PHONY : src/framing.c.i
 
 src/framing.s: src/framing.c.s
@@ -247,7 +247,7 @@ src/framing.s: src/framing.c.s
 
 # target to generate assembly for a file
 src/framing.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/ogg-build/CMakeFiles/ogg.dir/build.make _deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.s
 .PHONY : src/framing.c.s
 
 # Help Target
@@ -283,6 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

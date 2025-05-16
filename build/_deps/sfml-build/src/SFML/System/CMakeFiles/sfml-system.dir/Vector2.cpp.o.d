@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/System/Vector2.cpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/System/Vector2.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Angle.inl \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -90,7 +90,7 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/hash.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_const.h \

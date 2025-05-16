@@ -1,5 +1,5 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/Sensor.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/Sensor.cpp \
   /usr/local/include/SFML/Window/Sensor.hpp \
   /usr/local/include/SFML/Window/Export.hpp \
   /usr/local/include/SFML/Config.hpp \
@@ -91,10 +91,10 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/SensorManager.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/SensorImpl.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/SensorManager.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/SensorImpl.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/System/EnumArray.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

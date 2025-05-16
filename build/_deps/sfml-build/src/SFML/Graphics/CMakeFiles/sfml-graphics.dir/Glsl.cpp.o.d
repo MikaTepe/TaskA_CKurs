@@ -1,5 +1,5 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Graphics/Glsl.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Graphics/Glsl.cpp \
   /usr/local/include/SFML/Graphics/Color.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \

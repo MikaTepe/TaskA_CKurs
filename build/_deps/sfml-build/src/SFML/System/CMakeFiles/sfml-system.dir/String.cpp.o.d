@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/System/String.cpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/String.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/System/String.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/String.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -881,8 +881,8 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Utf.inl \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/String.inl \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include/SFML/System/String.inl \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-src/include -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-src/include -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-build/include
+C_INCLUDES = -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-src/include -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-src/include -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-build/include
 
 C_FLAGS = 
 

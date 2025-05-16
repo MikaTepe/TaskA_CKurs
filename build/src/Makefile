@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
+CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build
+CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CPackSourceConfig.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,21 +152,21 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src//CMakeFiles/progress.marks
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src//CMakeFiles/progress.marks
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src//CMakeFiles/progress.marks
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src//CMakeFiles/progress.marks
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
 clean:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -175,22 +175,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Platformer.dir/rule:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Platformer.dir/rule
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Platformer.dir/rule
 .PHONY : src/CMakeFiles/Platformer.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ Platformer: src/CMakeFiles/Platformer.dir/rule
 
 # fast build rule for target.
 Platformer/fast:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/build
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/build
 .PHONY : Platformer/fast
 
 control/Game.o: control/Game.cpp.o
@@ -207,7 +207,7 @@ control/Game.o: control/Game.cpp.o
 
 # target to build an object file
 control/Game.cpp.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/Game.cpp.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/Game.cpp.o
 .PHONY : control/Game.cpp.o
 
 control/Game.i: control/Game.cpp.i
@@ -215,7 +215,7 @@ control/Game.i: control/Game.cpp.i
 
 # target to preprocess a source file
 control/Game.cpp.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/Game.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/Game.cpp.i
 .PHONY : control/Game.cpp.i
 
 control/Game.s: control/Game.cpp.s
@@ -223,7 +223,7 @@ control/Game.s: control/Game.cpp.s
 
 # target to generate assembly for a file
 control/Game.cpp.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/Game.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/Game.cpp.s
 .PHONY : control/Game.cpp.s
 
 control/PlayerControl.o: control/PlayerControl.cpp.o
@@ -231,7 +231,7 @@ control/PlayerControl.o: control/PlayerControl.cpp.o
 
 # target to build an object file
 control/PlayerControl.cpp.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o
 .PHONY : control/PlayerControl.cpp.o
 
 control/PlayerControl.i: control/PlayerControl.cpp.i
@@ -239,7 +239,7 @@ control/PlayerControl.i: control/PlayerControl.cpp.i
 
 # target to preprocess a source file
 control/PlayerControl.cpp.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.i
 .PHONY : control/PlayerControl.cpp.i
 
 control/PlayerControl.s: control/PlayerControl.cpp.s
@@ -247,7 +247,7 @@ control/PlayerControl.s: control/PlayerControl.cpp.s
 
 # target to generate assembly for a file
 control/PlayerControl.cpp.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.s
 .PHONY : control/PlayerControl.cpp.s
 
 main.o: main.cpp.o
@@ -255,7 +255,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/main.cpp.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -263,7 +263,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/main.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -271,7 +271,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/main.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 model/Platform.o: model/Platform.cpp.o
@@ -279,7 +279,7 @@ model/Platform.o: model/Platform.cpp.o
 
 # target to build an object file
 model/Platform.cpp.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Platform.cpp.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Platform.cpp.o
 .PHONY : model/Platform.cpp.o
 
 model/Platform.i: model/Platform.cpp.i
@@ -287,7 +287,7 @@ model/Platform.i: model/Platform.cpp.i
 
 # target to preprocess a source file
 model/Platform.cpp.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Platform.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Platform.cpp.i
 .PHONY : model/Platform.cpp.i
 
 model/Platform.s: model/Platform.cpp.s
@@ -295,7 +295,7 @@ model/Platform.s: model/Platform.cpp.s
 
 # target to generate assembly for a file
 model/Platform.cpp.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Platform.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Platform.cpp.s
 .PHONY : model/Platform.cpp.s
 
 model/Player.o: model/Player.cpp.o
@@ -303,7 +303,7 @@ model/Player.o: model/Player.cpp.o
 
 # target to build an object file
 model/Player.cpp.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Player.cpp.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Player.cpp.o
 .PHONY : model/Player.cpp.o
 
 model/Player.i: model/Player.cpp.i
@@ -311,7 +311,7 @@ model/Player.i: model/Player.cpp.i
 
 # target to preprocess a source file
 model/Player.cpp.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Player.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Player.cpp.i
 .PHONY : model/Player.cpp.i
 
 model/Player.s: model/Player.cpp.s
@@ -319,7 +319,7 @@ model/Player.s: model/Player.cpp.s
 
 # target to generate assembly for a file
 model/Player.cpp.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Player.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/model/Player.cpp.s
 .PHONY : model/Player.cpp.s
 
 view/Layer.o: view/Layer.cpp.o
@@ -327,7 +327,7 @@ view/Layer.o: view/Layer.cpp.o
 
 # target to build an object file
 view/Layer.cpp.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/view/Layer.cpp.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/view/Layer.cpp.o
 .PHONY : view/Layer.cpp.o
 
 view/Layer.i: view/Layer.cpp.i
@@ -335,7 +335,7 @@ view/Layer.i: view/Layer.cpp.i
 
 # target to preprocess a source file
 view/Layer.cpp.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/view/Layer.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/view/Layer.cpp.i
 .PHONY : view/Layer.cpp.i
 
 view/Layer.s: view/Layer.cpp.s
@@ -343,7 +343,7 @@ view/Layer.s: view/Layer.cpp.s
 
 # target to generate assembly for a file
 view/Layer.cpp.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/view/Layer.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Platformer.dir/build.make src/CMakeFiles/Platformer.dir/view/Layer.cpp.s
 .PHONY : view/Layer.cpp.s
 
 # Help Target
@@ -391,6 +391,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

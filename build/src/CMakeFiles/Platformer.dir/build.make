@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
+CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build
+CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Platformer.dir/depend.make
@@ -73,88 +73,88 @@ src/CMakeFiles/Platformer.dir/codegen:
 .PHONY : src/CMakeFiles/Platformer.dir/codegen
 
 src/CMakeFiles/Platformer.dir/model/Player.cpp.o: src/CMakeFiles/Platformer.dir/flags.make
-src/CMakeFiles/Platformer.dir/model/Player.cpp.o: /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Player.cpp
+src/CMakeFiles/Platformer.dir/model/Player.cpp.o: /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Player.cpp
 src/CMakeFiles/Platformer.dir/model/Player.cpp.o: src/CMakeFiles/Platformer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Platformer.dir/model/Player.cpp.o"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/model/Player.cpp.o -MF CMakeFiles/Platformer.dir/model/Player.cpp.o.d -o CMakeFiles/Platformer.dir/model/Player.cpp.o -c /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Platformer.dir/model/Player.cpp.o"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/model/Player.cpp.o -MF CMakeFiles/Platformer.dir/model/Player.cpp.o.d -o CMakeFiles/Platformer.dir/model/Player.cpp.o -c /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Player.cpp
 
 src/CMakeFiles/Platformer.dir/model/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Platformer.dir/model/Player.cpp.i"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Player.cpp > CMakeFiles/Platformer.dir/model/Player.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Player.cpp > CMakeFiles/Platformer.dir/model/Player.cpp.i
 
 src/CMakeFiles/Platformer.dir/model/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Platformer.dir/model/Player.cpp.s"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Player.cpp -o CMakeFiles/Platformer.dir/model/Player.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Player.cpp -o CMakeFiles/Platformer.dir/model/Player.cpp.s
 
 src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: src/CMakeFiles/Platformer.dir/flags.make
-src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Platform.cpp
+src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Platform.cpp
 src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: src/CMakeFiles/Platformer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Platformer.dir/model/Platform.cpp.o"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/model/Platform.cpp.o -MF CMakeFiles/Platformer.dir/model/Platform.cpp.o.d -o CMakeFiles/Platformer.dir/model/Platform.cpp.o -c /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Platform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Platformer.dir/model/Platform.cpp.o"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/model/Platform.cpp.o -MF CMakeFiles/Platformer.dir/model/Platform.cpp.o.d -o CMakeFiles/Platformer.dir/model/Platform.cpp.o -c /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Platform.cpp
 
 src/CMakeFiles/Platformer.dir/model/Platform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Platformer.dir/model/Platform.cpp.i"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Platform.cpp > CMakeFiles/Platformer.dir/model/Platform.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Platform.cpp > CMakeFiles/Platformer.dir/model/Platform.cpp.i
 
 src/CMakeFiles/Platformer.dir/model/Platform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Platformer.dir/model/Platform.cpp.s"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Platform.cpp -o CMakeFiles/Platformer.dir/model/Platform.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Platform.cpp -o CMakeFiles/Platformer.dir/model/Platform.cpp.s
 
 src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o: src/CMakeFiles/Platformer.dir/flags.make
-src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o: /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/PlayerControl.cpp
+src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o: /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/PlayerControl.cpp
 src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o: src/CMakeFiles/Platformer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o -MF CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o.d -o CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o -c /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/PlayerControl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o -MF CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o.d -o CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o -c /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/PlayerControl.cpp
 
 src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Platformer.dir/control/PlayerControl.cpp.i"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/PlayerControl.cpp > CMakeFiles/Platformer.dir/control/PlayerControl.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/PlayerControl.cpp > CMakeFiles/Platformer.dir/control/PlayerControl.cpp.i
 
 src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Platformer.dir/control/PlayerControl.cpp.s"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/PlayerControl.cpp -o CMakeFiles/Platformer.dir/control/PlayerControl.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/PlayerControl.cpp -o CMakeFiles/Platformer.dir/control/PlayerControl.cpp.s
 
 src/CMakeFiles/Platformer.dir/control/Game.cpp.o: src/CMakeFiles/Platformer.dir/flags.make
-src/CMakeFiles/Platformer.dir/control/Game.cpp.o: /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/Game.cpp
+src/CMakeFiles/Platformer.dir/control/Game.cpp.o: /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/Game.cpp
 src/CMakeFiles/Platformer.dir/control/Game.cpp.o: src/CMakeFiles/Platformer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Platformer.dir/control/Game.cpp.o"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/control/Game.cpp.o -MF CMakeFiles/Platformer.dir/control/Game.cpp.o.d -o CMakeFiles/Platformer.dir/control/Game.cpp.o -c /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Platformer.dir/control/Game.cpp.o"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/control/Game.cpp.o -MF CMakeFiles/Platformer.dir/control/Game.cpp.o.d -o CMakeFiles/Platformer.dir/control/Game.cpp.o -c /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/Game.cpp
 
 src/CMakeFiles/Platformer.dir/control/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Platformer.dir/control/Game.cpp.i"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/Game.cpp > CMakeFiles/Platformer.dir/control/Game.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/Game.cpp > CMakeFiles/Platformer.dir/control/Game.cpp.i
 
 src/CMakeFiles/Platformer.dir/control/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Platformer.dir/control/Game.cpp.s"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/Game.cpp -o CMakeFiles/Platformer.dir/control/Game.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/Game.cpp -o CMakeFiles/Platformer.dir/control/Game.cpp.s
 
 src/CMakeFiles/Platformer.dir/view/Layer.cpp.o: src/CMakeFiles/Platformer.dir/flags.make
-src/CMakeFiles/Platformer.dir/view/Layer.cpp.o: /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/view/Layer.cpp
+src/CMakeFiles/Platformer.dir/view/Layer.cpp.o: /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/view/Layer.cpp
 src/CMakeFiles/Platformer.dir/view/Layer.cpp.o: src/CMakeFiles/Platformer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Platformer.dir/view/Layer.cpp.o"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/view/Layer.cpp.o -MF CMakeFiles/Platformer.dir/view/Layer.cpp.o.d -o CMakeFiles/Platformer.dir/view/Layer.cpp.o -c /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/view/Layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Platformer.dir/view/Layer.cpp.o"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/view/Layer.cpp.o -MF CMakeFiles/Platformer.dir/view/Layer.cpp.o.d -o CMakeFiles/Platformer.dir/view/Layer.cpp.o -c /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/view/Layer.cpp
 
 src/CMakeFiles/Platformer.dir/view/Layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Platformer.dir/view/Layer.cpp.i"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/view/Layer.cpp > CMakeFiles/Platformer.dir/view/Layer.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/view/Layer.cpp > CMakeFiles/Platformer.dir/view/Layer.cpp.i
 
 src/CMakeFiles/Platformer.dir/view/Layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Platformer.dir/view/Layer.cpp.s"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/view/Layer.cpp -o CMakeFiles/Platformer.dir/view/Layer.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/view/Layer.cpp -o CMakeFiles/Platformer.dir/view/Layer.cpp.s
 
 src/CMakeFiles/Platformer.dir/main.cpp.o: src/CMakeFiles/Platformer.dir/flags.make
-src/CMakeFiles/Platformer.dir/main.cpp.o: /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/main.cpp
+src/CMakeFiles/Platformer.dir/main.cpp.o: /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/main.cpp
 src/CMakeFiles/Platformer.dir/main.cpp.o: src/CMakeFiles/Platformer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Platformer.dir/main.cpp.o"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/main.cpp.o -MF CMakeFiles/Platformer.dir/main.cpp.o.d -o CMakeFiles/Platformer.dir/main.cpp.o -c /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Platformer.dir/main.cpp.o"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Platformer.dir/main.cpp.o -MF CMakeFiles/Platformer.dir/main.cpp.o.d -o CMakeFiles/Platformer.dir/main.cpp.o -c /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/main.cpp
 
 src/CMakeFiles/Platformer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Platformer.dir/main.cpp.i"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/main.cpp > CMakeFiles/Platformer.dir/main.cpp.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/main.cpp > CMakeFiles/Platformer.dir/main.cpp.i
 
 src/CMakeFiles/Platformer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Platformer.dir/main.cpp.s"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/main.cpp -o CMakeFiles/Platformer.dir/main.cpp.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/main.cpp -o CMakeFiles/Platformer.dir/main.cpp.s
 
 # Object files for target Platformer
 Platformer_OBJECTS = \
@@ -181,18 +181,18 @@ bin/Platformer: _deps/sfml-build/lib/libsfml-system.a
 bin/Platformer: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 bin/Platformer: _deps/sfml-build/lib/libfreetype.a
 bin/Platformer: src/CMakeFiles/Platformer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/Platformer"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Platformer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/Platformer"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Platformer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Platformer.dir/build: bin/Platformer
 .PHONY : src/CMakeFiles/Platformer.dir/build
 
 src/CMakeFiles/Platformer.dir/clean:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Platformer.dir/cmake_clean.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Platformer.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Platformer.dir/clean
 
 src/CMakeFiles/Platformer.dir/depend:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/src/CMakeFiles/Platformer.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mikatepe/C_Kurs/Task_A_Vorlage /Users/mikatepe/C_Kurs/Task_A_Vorlage/src /Users/mikatepe/C_Kurs/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/src/CMakeFiles/Platformer.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/Platformer.dir/depend
 

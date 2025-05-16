@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisfile.c" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.o" "gcc" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.o.d"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisfile.c" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.o" "gcc" "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

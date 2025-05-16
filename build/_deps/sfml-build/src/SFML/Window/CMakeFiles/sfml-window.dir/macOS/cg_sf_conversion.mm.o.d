@@ -1,7 +1,7 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/macOS/cg_sf_conversion.mm.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/cg_sf_conversion.mm \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/Scaling.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/WindowImplDelegateProtocol.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/cg_sf_conversion.mm \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/Scaling.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/WindowImplDelegateProtocol.h \
   /usr/local/include/SFML/Config.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /usr/local/include/SFML/Window/WindowHandle.hpp \
@@ -1429,7 +1429,7 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/macOS/cg_sf_conversi
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWritingToolsCoordinatorAnimationParameters.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWritingToolsCoordinatorContext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWritingToolsCoordinator.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/cg_sf_conversion.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/macOS/cg_sf_conversion.hpp \
   /usr/local/include/SFML/Window/VideoMode.hpp \
   /usr/local/include/SFML/Window/Export.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \

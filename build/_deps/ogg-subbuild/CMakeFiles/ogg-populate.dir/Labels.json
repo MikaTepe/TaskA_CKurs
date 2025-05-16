@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule"
 		},
 		{
-			"file" : "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule"
+			"file" : "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule"
 		}
 	],
 	"target" : 

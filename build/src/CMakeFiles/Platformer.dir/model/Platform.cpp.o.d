@@ -1,6 +1,6 @@
 src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Platform.cpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Platform.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Platform.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Platform.hpp \
   /usr/local/include/SFML/Graphics/RectangleShape.hpp \
   /usr/local/include/SFML/Graphics/Export.hpp \
   /usr/local/include/SFML/Config.hpp \
@@ -932,7 +932,7 @@ src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Player.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Player.hpp \
   /usr/local/include/SFML/Graphics/Sprite.hpp \
   /usr/local/include/SFML/Graphics/Texture.hpp \
   /usr/local/include/SFML/Window/GlResource.hpp \
@@ -1009,7 +1009,7 @@ src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/../control/PlayerControl.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/PlayerControl.hpp \
   /usr/local/include/SFML/Graphics.hpp \
   /usr/local/include/SFML/Graphics/CircleShape.hpp \
   /usr/local/include/SFML/Graphics/ConvexShape.hpp \
@@ -1084,6 +1084,6 @@ src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: \
   /usr/local/include/SFML/System/InputStream.hpp \
   /usr/local/include/SFML/System/MemoryInputStream.hpp \
   /usr/local/include/SFML/System/Sleep.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/../control/../model/Player.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/../control/../view/Layer.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/../control/../model/Platform.hpp
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/../model/Player.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/../view/Layer.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/../model/Platform.hpp

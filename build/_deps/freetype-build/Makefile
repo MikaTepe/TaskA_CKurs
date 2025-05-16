@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
+CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build
+CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CPackSourceConfig.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,21 +152,21 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-build//CMakeFiles/progress.marks
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-build//CMakeFiles/progress.marks
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-build//CMakeFiles/progress.marks
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-build//CMakeFiles/progress.marks
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
 clean:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/clean
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -175,22 +175,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/preinstall
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/preinstall
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/freetype-build/CMakeFiles/freetype.dir/rule:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/CMakeFiles/freetype.dir/rule
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/freetype-build/CMakeFiles/freetype.dir/rule
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ freetype: _deps/freetype-build/CMakeFiles/freetype.dir/rule
 
 # fast build rule for target.
 freetype/fast:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/build
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/build
 .PHONY : freetype/fast
 
 builds/unix/ftsystem.o: builds/unix/ftsystem.c.o
@@ -207,7 +207,7 @@ builds/unix/ftsystem.o: builds/unix/ftsystem.c.o
 
 # target to build an object file
 builds/unix/ftsystem.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/builds/unix/ftsystem.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/builds/unix/ftsystem.c.o
 .PHONY : builds/unix/ftsystem.c.o
 
 builds/unix/ftsystem.i: builds/unix/ftsystem.c.i
@@ -215,7 +215,7 @@ builds/unix/ftsystem.i: builds/unix/ftsystem.c.i
 
 # target to preprocess a source file
 builds/unix/ftsystem.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/builds/unix/ftsystem.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/builds/unix/ftsystem.c.i
 .PHONY : builds/unix/ftsystem.c.i
 
 builds/unix/ftsystem.s: builds/unix/ftsystem.c.s
@@ -223,7 +223,7 @@ builds/unix/ftsystem.s: builds/unix/ftsystem.c.s
 
 # target to generate assembly for a file
 builds/unix/ftsystem.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/builds/unix/ftsystem.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/builds/unix/ftsystem.c.s
 .PHONY : builds/unix/ftsystem.c.s
 
 src/autofit/autofit.o: src/autofit/autofit.c.o
@@ -231,7 +231,7 @@ src/autofit/autofit.o: src/autofit/autofit.c.o
 
 # target to build an object file
 src/autofit/autofit.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.o
 .PHONY : src/autofit/autofit.c.o
 
 src/autofit/autofit.i: src/autofit/autofit.c.i
@@ -239,7 +239,7 @@ src/autofit/autofit.i: src/autofit/autofit.c.i
 
 # target to preprocess a source file
 src/autofit/autofit.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.i
 .PHONY : src/autofit/autofit.c.i
 
 src/autofit/autofit.s: src/autofit/autofit.c.s
@@ -247,7 +247,7 @@ src/autofit/autofit.s: src/autofit/autofit.c.s
 
 # target to generate assembly for a file
 src/autofit/autofit.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.s
 .PHONY : src/autofit/autofit.c.s
 
 src/base/ftbase.o: src/base/ftbase.c.o
@@ -255,7 +255,7 @@ src/base/ftbase.o: src/base/ftbase.c.o
 
 # target to build an object file
 src/base/ftbase.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.o
 .PHONY : src/base/ftbase.c.o
 
 src/base/ftbase.i: src/base/ftbase.c.i
@@ -263,7 +263,7 @@ src/base/ftbase.i: src/base/ftbase.c.i
 
 # target to preprocess a source file
 src/base/ftbase.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.i
 .PHONY : src/base/ftbase.c.i
 
 src/base/ftbase.s: src/base/ftbase.c.s
@@ -271,7 +271,7 @@ src/base/ftbase.s: src/base/ftbase.c.s
 
 # target to generate assembly for a file
 src/base/ftbase.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.s
 .PHONY : src/base/ftbase.c.s
 
 src/base/ftbbox.o: src/base/ftbbox.c.o
@@ -279,7 +279,7 @@ src/base/ftbbox.o: src/base/ftbbox.c.o
 
 # target to build an object file
 src/base/ftbbox.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.o
 .PHONY : src/base/ftbbox.c.o
 
 src/base/ftbbox.i: src/base/ftbbox.c.i
@@ -287,7 +287,7 @@ src/base/ftbbox.i: src/base/ftbbox.c.i
 
 # target to preprocess a source file
 src/base/ftbbox.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.i
 .PHONY : src/base/ftbbox.c.i
 
 src/base/ftbbox.s: src/base/ftbbox.c.s
@@ -295,7 +295,7 @@ src/base/ftbbox.s: src/base/ftbbox.c.s
 
 # target to generate assembly for a file
 src/base/ftbbox.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.s
 .PHONY : src/base/ftbbox.c.s
 
 src/base/ftbdf.o: src/base/ftbdf.c.o
@@ -303,7 +303,7 @@ src/base/ftbdf.o: src/base/ftbdf.c.o
 
 # target to build an object file
 src/base/ftbdf.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.o
 .PHONY : src/base/ftbdf.c.o
 
 src/base/ftbdf.i: src/base/ftbdf.c.i
@@ -311,7 +311,7 @@ src/base/ftbdf.i: src/base/ftbdf.c.i
 
 # target to preprocess a source file
 src/base/ftbdf.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.i
 .PHONY : src/base/ftbdf.c.i
 
 src/base/ftbdf.s: src/base/ftbdf.c.s
@@ -319,7 +319,7 @@ src/base/ftbdf.s: src/base/ftbdf.c.s
 
 # target to generate assembly for a file
 src/base/ftbdf.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.s
 .PHONY : src/base/ftbdf.c.s
 
 src/base/ftbitmap.o: src/base/ftbitmap.c.o
@@ -327,7 +327,7 @@ src/base/ftbitmap.o: src/base/ftbitmap.c.o
 
 # target to build an object file
 src/base/ftbitmap.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.o
 .PHONY : src/base/ftbitmap.c.o
 
 src/base/ftbitmap.i: src/base/ftbitmap.c.i
@@ -335,7 +335,7 @@ src/base/ftbitmap.i: src/base/ftbitmap.c.i
 
 # target to preprocess a source file
 src/base/ftbitmap.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.i
 .PHONY : src/base/ftbitmap.c.i
 
 src/base/ftbitmap.s: src/base/ftbitmap.c.s
@@ -343,7 +343,7 @@ src/base/ftbitmap.s: src/base/ftbitmap.c.s
 
 # target to generate assembly for a file
 src/base/ftbitmap.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.s
 .PHONY : src/base/ftbitmap.c.s
 
 src/base/ftcid.o: src/base/ftcid.c.o
@@ -351,7 +351,7 @@ src/base/ftcid.o: src/base/ftcid.c.o
 
 # target to build an object file
 src/base/ftcid.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.o
 .PHONY : src/base/ftcid.c.o
 
 src/base/ftcid.i: src/base/ftcid.c.i
@@ -359,7 +359,7 @@ src/base/ftcid.i: src/base/ftcid.c.i
 
 # target to preprocess a source file
 src/base/ftcid.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.i
 .PHONY : src/base/ftcid.c.i
 
 src/base/ftcid.s: src/base/ftcid.c.s
@@ -367,7 +367,7 @@ src/base/ftcid.s: src/base/ftcid.c.s
 
 # target to generate assembly for a file
 src/base/ftcid.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.s
 .PHONY : src/base/ftcid.c.s
 
 src/base/ftdebug.o: src/base/ftdebug.c.o
@@ -375,7 +375,7 @@ src/base/ftdebug.o: src/base/ftdebug.c.o
 
 # target to build an object file
 src/base/ftdebug.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftdebug.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftdebug.c.o
 .PHONY : src/base/ftdebug.c.o
 
 src/base/ftdebug.i: src/base/ftdebug.c.i
@@ -383,7 +383,7 @@ src/base/ftdebug.i: src/base/ftdebug.c.i
 
 # target to preprocess a source file
 src/base/ftdebug.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftdebug.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftdebug.c.i
 .PHONY : src/base/ftdebug.c.i
 
 src/base/ftdebug.s: src/base/ftdebug.c.s
@@ -391,7 +391,7 @@ src/base/ftdebug.s: src/base/ftdebug.c.s
 
 # target to generate assembly for a file
 src/base/ftdebug.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftdebug.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftdebug.c.s
 .PHONY : src/base/ftdebug.c.s
 
 src/base/ftfstype.o: src/base/ftfstype.c.o
@@ -399,7 +399,7 @@ src/base/ftfstype.o: src/base/ftfstype.c.o
 
 # target to build an object file
 src/base/ftfstype.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.o
 .PHONY : src/base/ftfstype.c.o
 
 src/base/ftfstype.i: src/base/ftfstype.c.i
@@ -407,7 +407,7 @@ src/base/ftfstype.i: src/base/ftfstype.c.i
 
 # target to preprocess a source file
 src/base/ftfstype.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.i
 .PHONY : src/base/ftfstype.c.i
 
 src/base/ftfstype.s: src/base/ftfstype.c.s
@@ -415,7 +415,7 @@ src/base/ftfstype.s: src/base/ftfstype.c.s
 
 # target to generate assembly for a file
 src/base/ftfstype.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.s
 .PHONY : src/base/ftfstype.c.s
 
 src/base/ftgasp.o: src/base/ftgasp.c.o
@@ -423,7 +423,7 @@ src/base/ftgasp.o: src/base/ftgasp.c.o
 
 # target to build an object file
 src/base/ftgasp.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.o
 .PHONY : src/base/ftgasp.c.o
 
 src/base/ftgasp.i: src/base/ftgasp.c.i
@@ -431,7 +431,7 @@ src/base/ftgasp.i: src/base/ftgasp.c.i
 
 # target to preprocess a source file
 src/base/ftgasp.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.i
 .PHONY : src/base/ftgasp.c.i
 
 src/base/ftgasp.s: src/base/ftgasp.c.s
@@ -439,7 +439,7 @@ src/base/ftgasp.s: src/base/ftgasp.c.s
 
 # target to generate assembly for a file
 src/base/ftgasp.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.s
 .PHONY : src/base/ftgasp.c.s
 
 src/base/ftglyph.o: src/base/ftglyph.c.o
@@ -447,7 +447,7 @@ src/base/ftglyph.o: src/base/ftglyph.c.o
 
 # target to build an object file
 src/base/ftglyph.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.o
 .PHONY : src/base/ftglyph.c.o
 
 src/base/ftglyph.i: src/base/ftglyph.c.i
@@ -455,7 +455,7 @@ src/base/ftglyph.i: src/base/ftglyph.c.i
 
 # target to preprocess a source file
 src/base/ftglyph.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.i
 .PHONY : src/base/ftglyph.c.i
 
 src/base/ftglyph.s: src/base/ftglyph.c.s
@@ -463,7 +463,7 @@ src/base/ftglyph.s: src/base/ftglyph.c.s
 
 # target to generate assembly for a file
 src/base/ftglyph.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.s
 .PHONY : src/base/ftglyph.c.s
 
 src/base/ftgxval.o: src/base/ftgxval.c.o
@@ -471,7 +471,7 @@ src/base/ftgxval.o: src/base/ftgxval.c.o
 
 # target to build an object file
 src/base/ftgxval.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.o
 .PHONY : src/base/ftgxval.c.o
 
 src/base/ftgxval.i: src/base/ftgxval.c.i
@@ -479,7 +479,7 @@ src/base/ftgxval.i: src/base/ftgxval.c.i
 
 # target to preprocess a source file
 src/base/ftgxval.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.i
 .PHONY : src/base/ftgxval.c.i
 
 src/base/ftgxval.s: src/base/ftgxval.c.s
@@ -487,7 +487,7 @@ src/base/ftgxval.s: src/base/ftgxval.c.s
 
 # target to generate assembly for a file
 src/base/ftgxval.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.s
 .PHONY : src/base/ftgxval.c.s
 
 src/base/ftinit.o: src/base/ftinit.c.o
@@ -495,7 +495,7 @@ src/base/ftinit.o: src/base/ftinit.c.o
 
 # target to build an object file
 src/base/ftinit.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.o
 .PHONY : src/base/ftinit.c.o
 
 src/base/ftinit.i: src/base/ftinit.c.i
@@ -503,7 +503,7 @@ src/base/ftinit.i: src/base/ftinit.c.i
 
 # target to preprocess a source file
 src/base/ftinit.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.i
 .PHONY : src/base/ftinit.c.i
 
 src/base/ftinit.s: src/base/ftinit.c.s
@@ -511,7 +511,7 @@ src/base/ftinit.s: src/base/ftinit.c.s
 
 # target to generate assembly for a file
 src/base/ftinit.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.s
 .PHONY : src/base/ftinit.c.s
 
 src/base/ftmm.o: src/base/ftmm.c.o
@@ -519,7 +519,7 @@ src/base/ftmm.o: src/base/ftmm.c.o
 
 # target to build an object file
 src/base/ftmm.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.o
 .PHONY : src/base/ftmm.c.o
 
 src/base/ftmm.i: src/base/ftmm.c.i
@@ -527,7 +527,7 @@ src/base/ftmm.i: src/base/ftmm.c.i
 
 # target to preprocess a source file
 src/base/ftmm.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.i
 .PHONY : src/base/ftmm.c.i
 
 src/base/ftmm.s: src/base/ftmm.c.s
@@ -535,7 +535,7 @@ src/base/ftmm.s: src/base/ftmm.c.s
 
 # target to generate assembly for a file
 src/base/ftmm.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.s
 .PHONY : src/base/ftmm.c.s
 
 src/base/ftotval.o: src/base/ftotval.c.o
@@ -543,7 +543,7 @@ src/base/ftotval.o: src/base/ftotval.c.o
 
 # target to build an object file
 src/base/ftotval.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.o
 .PHONY : src/base/ftotval.c.o
 
 src/base/ftotval.i: src/base/ftotval.c.i
@@ -551,7 +551,7 @@ src/base/ftotval.i: src/base/ftotval.c.i
 
 # target to preprocess a source file
 src/base/ftotval.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.i
 .PHONY : src/base/ftotval.c.i
 
 src/base/ftotval.s: src/base/ftotval.c.s
@@ -559,7 +559,7 @@ src/base/ftotval.s: src/base/ftotval.c.s
 
 # target to generate assembly for a file
 src/base/ftotval.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.s
 .PHONY : src/base/ftotval.c.s
 
 src/base/ftpatent.o: src/base/ftpatent.c.o
@@ -567,7 +567,7 @@ src/base/ftpatent.o: src/base/ftpatent.c.o
 
 # target to build an object file
 src/base/ftpatent.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.o
 .PHONY : src/base/ftpatent.c.o
 
 src/base/ftpatent.i: src/base/ftpatent.c.i
@@ -575,7 +575,7 @@ src/base/ftpatent.i: src/base/ftpatent.c.i
 
 # target to preprocess a source file
 src/base/ftpatent.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.i
 .PHONY : src/base/ftpatent.c.i
 
 src/base/ftpatent.s: src/base/ftpatent.c.s
@@ -583,7 +583,7 @@ src/base/ftpatent.s: src/base/ftpatent.c.s
 
 # target to generate assembly for a file
 src/base/ftpatent.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.s
 .PHONY : src/base/ftpatent.c.s
 
 src/base/ftpfr.o: src/base/ftpfr.c.o
@@ -591,7 +591,7 @@ src/base/ftpfr.o: src/base/ftpfr.c.o
 
 # target to build an object file
 src/base/ftpfr.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.o
 .PHONY : src/base/ftpfr.c.o
 
 src/base/ftpfr.i: src/base/ftpfr.c.i
@@ -599,7 +599,7 @@ src/base/ftpfr.i: src/base/ftpfr.c.i
 
 # target to preprocess a source file
 src/base/ftpfr.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.i
 .PHONY : src/base/ftpfr.c.i
 
 src/base/ftpfr.s: src/base/ftpfr.c.s
@@ -607,7 +607,7 @@ src/base/ftpfr.s: src/base/ftpfr.c.s
 
 # target to generate assembly for a file
 src/base/ftpfr.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.s
 .PHONY : src/base/ftpfr.c.s
 
 src/base/ftstroke.o: src/base/ftstroke.c.o
@@ -615,7 +615,7 @@ src/base/ftstroke.o: src/base/ftstroke.c.o
 
 # target to build an object file
 src/base/ftstroke.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.o
 .PHONY : src/base/ftstroke.c.o
 
 src/base/ftstroke.i: src/base/ftstroke.c.i
@@ -623,7 +623,7 @@ src/base/ftstroke.i: src/base/ftstroke.c.i
 
 # target to preprocess a source file
 src/base/ftstroke.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.i
 .PHONY : src/base/ftstroke.c.i
 
 src/base/ftstroke.s: src/base/ftstroke.c.s
@@ -631,7 +631,7 @@ src/base/ftstroke.s: src/base/ftstroke.c.s
 
 # target to generate assembly for a file
 src/base/ftstroke.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.s
 .PHONY : src/base/ftstroke.c.s
 
 src/base/ftsynth.o: src/base/ftsynth.c.o
@@ -639,7 +639,7 @@ src/base/ftsynth.o: src/base/ftsynth.c.o
 
 # target to build an object file
 src/base/ftsynth.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.o
 .PHONY : src/base/ftsynth.c.o
 
 src/base/ftsynth.i: src/base/ftsynth.c.i
@@ -647,7 +647,7 @@ src/base/ftsynth.i: src/base/ftsynth.c.i
 
 # target to preprocess a source file
 src/base/ftsynth.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.i
 .PHONY : src/base/ftsynth.c.i
 
 src/base/ftsynth.s: src/base/ftsynth.c.s
@@ -655,7 +655,7 @@ src/base/ftsynth.s: src/base/ftsynth.c.s
 
 # target to generate assembly for a file
 src/base/ftsynth.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.s
 .PHONY : src/base/ftsynth.c.s
 
 src/base/fttype1.o: src/base/fttype1.c.o
@@ -663,7 +663,7 @@ src/base/fttype1.o: src/base/fttype1.c.o
 
 # target to build an object file
 src/base/fttype1.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.o
 .PHONY : src/base/fttype1.c.o
 
 src/base/fttype1.i: src/base/fttype1.c.i
@@ -671,7 +671,7 @@ src/base/fttype1.i: src/base/fttype1.c.i
 
 # target to preprocess a source file
 src/base/fttype1.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.i
 .PHONY : src/base/fttype1.c.i
 
 src/base/fttype1.s: src/base/fttype1.c.s
@@ -679,7 +679,7 @@ src/base/fttype1.s: src/base/fttype1.c.s
 
 # target to generate assembly for a file
 src/base/fttype1.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.s
 .PHONY : src/base/fttype1.c.s
 
 src/base/ftwinfnt.o: src/base/ftwinfnt.c.o
@@ -687,7 +687,7 @@ src/base/ftwinfnt.o: src/base/ftwinfnt.c.o
 
 # target to build an object file
 src/base/ftwinfnt.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.o
 .PHONY : src/base/ftwinfnt.c.o
 
 src/base/ftwinfnt.i: src/base/ftwinfnt.c.i
@@ -695,7 +695,7 @@ src/base/ftwinfnt.i: src/base/ftwinfnt.c.i
 
 # target to preprocess a source file
 src/base/ftwinfnt.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.i
 .PHONY : src/base/ftwinfnt.c.i
 
 src/base/ftwinfnt.s: src/base/ftwinfnt.c.s
@@ -703,7 +703,7 @@ src/base/ftwinfnt.s: src/base/ftwinfnt.c.s
 
 # target to generate assembly for a file
 src/base/ftwinfnt.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.s
 .PHONY : src/base/ftwinfnt.c.s
 
 src/bdf/bdf.o: src/bdf/bdf.c.o
@@ -711,7 +711,7 @@ src/bdf/bdf.o: src/bdf/bdf.c.o
 
 # target to build an object file
 src/bdf/bdf.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.o
 .PHONY : src/bdf/bdf.c.o
 
 src/bdf/bdf.i: src/bdf/bdf.c.i
@@ -719,7 +719,7 @@ src/bdf/bdf.i: src/bdf/bdf.c.i
 
 # target to preprocess a source file
 src/bdf/bdf.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.i
 .PHONY : src/bdf/bdf.c.i
 
 src/bdf/bdf.s: src/bdf/bdf.c.s
@@ -727,7 +727,7 @@ src/bdf/bdf.s: src/bdf/bdf.c.s
 
 # target to generate assembly for a file
 src/bdf/bdf.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.s
 .PHONY : src/bdf/bdf.c.s
 
 src/bzip2/ftbzip2.o: src/bzip2/ftbzip2.c.o
@@ -735,7 +735,7 @@ src/bzip2/ftbzip2.o: src/bzip2/ftbzip2.c.o
 
 # target to build an object file
 src/bzip2/ftbzip2.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.o
 .PHONY : src/bzip2/ftbzip2.c.o
 
 src/bzip2/ftbzip2.i: src/bzip2/ftbzip2.c.i
@@ -743,7 +743,7 @@ src/bzip2/ftbzip2.i: src/bzip2/ftbzip2.c.i
 
 # target to preprocess a source file
 src/bzip2/ftbzip2.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.i
 .PHONY : src/bzip2/ftbzip2.c.i
 
 src/bzip2/ftbzip2.s: src/bzip2/ftbzip2.c.s
@@ -751,7 +751,7 @@ src/bzip2/ftbzip2.s: src/bzip2/ftbzip2.c.s
 
 # target to generate assembly for a file
 src/bzip2/ftbzip2.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.s
 .PHONY : src/bzip2/ftbzip2.c.s
 
 src/cache/ftcache.o: src/cache/ftcache.c.o
@@ -759,7 +759,7 @@ src/cache/ftcache.o: src/cache/ftcache.c.o
 
 # target to build an object file
 src/cache/ftcache.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.o
 .PHONY : src/cache/ftcache.c.o
 
 src/cache/ftcache.i: src/cache/ftcache.c.i
@@ -767,7 +767,7 @@ src/cache/ftcache.i: src/cache/ftcache.c.i
 
 # target to preprocess a source file
 src/cache/ftcache.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.i
 .PHONY : src/cache/ftcache.c.i
 
 src/cache/ftcache.s: src/cache/ftcache.c.s
@@ -775,7 +775,7 @@ src/cache/ftcache.s: src/cache/ftcache.c.s
 
 # target to generate assembly for a file
 src/cache/ftcache.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.s
 .PHONY : src/cache/ftcache.c.s
 
 src/cff/cff.o: src/cff/cff.c.o
@@ -783,7 +783,7 @@ src/cff/cff.o: src/cff/cff.c.o
 
 # target to build an object file
 src/cff/cff.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.o
 .PHONY : src/cff/cff.c.o
 
 src/cff/cff.i: src/cff/cff.c.i
@@ -791,7 +791,7 @@ src/cff/cff.i: src/cff/cff.c.i
 
 # target to preprocess a source file
 src/cff/cff.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.i
 .PHONY : src/cff/cff.c.i
 
 src/cff/cff.s: src/cff/cff.c.s
@@ -799,7 +799,7 @@ src/cff/cff.s: src/cff/cff.c.s
 
 # target to generate assembly for a file
 src/cff/cff.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.s
 .PHONY : src/cff/cff.c.s
 
 src/cid/type1cid.o: src/cid/type1cid.c.o
@@ -807,7 +807,7 @@ src/cid/type1cid.o: src/cid/type1cid.c.o
 
 # target to build an object file
 src/cid/type1cid.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.o
 .PHONY : src/cid/type1cid.c.o
 
 src/cid/type1cid.i: src/cid/type1cid.c.i
@@ -815,7 +815,7 @@ src/cid/type1cid.i: src/cid/type1cid.c.i
 
 # target to preprocess a source file
 src/cid/type1cid.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.i
 .PHONY : src/cid/type1cid.c.i
 
 src/cid/type1cid.s: src/cid/type1cid.c.s
@@ -823,7 +823,7 @@ src/cid/type1cid.s: src/cid/type1cid.c.s
 
 # target to generate assembly for a file
 src/cid/type1cid.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.s
 .PHONY : src/cid/type1cid.c.s
 
 src/gzip/ftgzip.o: src/gzip/ftgzip.c.o
@@ -831,7 +831,7 @@ src/gzip/ftgzip.o: src/gzip/ftgzip.c.o
 
 # target to build an object file
 src/gzip/ftgzip.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.o
 .PHONY : src/gzip/ftgzip.c.o
 
 src/gzip/ftgzip.i: src/gzip/ftgzip.c.i
@@ -839,7 +839,7 @@ src/gzip/ftgzip.i: src/gzip/ftgzip.c.i
 
 # target to preprocess a source file
 src/gzip/ftgzip.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.i
 .PHONY : src/gzip/ftgzip.c.i
 
 src/gzip/ftgzip.s: src/gzip/ftgzip.c.s
@@ -847,7 +847,7 @@ src/gzip/ftgzip.s: src/gzip/ftgzip.c.s
 
 # target to generate assembly for a file
 src/gzip/ftgzip.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.s
 .PHONY : src/gzip/ftgzip.c.s
 
 src/lzw/ftlzw.o: src/lzw/ftlzw.c.o
@@ -855,7 +855,7 @@ src/lzw/ftlzw.o: src/lzw/ftlzw.c.o
 
 # target to build an object file
 src/lzw/ftlzw.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.o
 .PHONY : src/lzw/ftlzw.c.o
 
 src/lzw/ftlzw.i: src/lzw/ftlzw.c.i
@@ -863,7 +863,7 @@ src/lzw/ftlzw.i: src/lzw/ftlzw.c.i
 
 # target to preprocess a source file
 src/lzw/ftlzw.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.i
 .PHONY : src/lzw/ftlzw.c.i
 
 src/lzw/ftlzw.s: src/lzw/ftlzw.c.s
@@ -871,7 +871,7 @@ src/lzw/ftlzw.s: src/lzw/ftlzw.c.s
 
 # target to generate assembly for a file
 src/lzw/ftlzw.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.s
 .PHONY : src/lzw/ftlzw.c.s
 
 src/pcf/pcf.o: src/pcf/pcf.c.o
@@ -879,7 +879,7 @@ src/pcf/pcf.o: src/pcf/pcf.c.o
 
 # target to build an object file
 src/pcf/pcf.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.o
 .PHONY : src/pcf/pcf.c.o
 
 src/pcf/pcf.i: src/pcf/pcf.c.i
@@ -887,7 +887,7 @@ src/pcf/pcf.i: src/pcf/pcf.c.i
 
 # target to preprocess a source file
 src/pcf/pcf.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.i
 .PHONY : src/pcf/pcf.c.i
 
 src/pcf/pcf.s: src/pcf/pcf.c.s
@@ -895,7 +895,7 @@ src/pcf/pcf.s: src/pcf/pcf.c.s
 
 # target to generate assembly for a file
 src/pcf/pcf.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.s
 .PHONY : src/pcf/pcf.c.s
 
 src/pfr/pfr.o: src/pfr/pfr.c.o
@@ -903,7 +903,7 @@ src/pfr/pfr.o: src/pfr/pfr.c.o
 
 # target to build an object file
 src/pfr/pfr.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.o
 .PHONY : src/pfr/pfr.c.o
 
 src/pfr/pfr.i: src/pfr/pfr.c.i
@@ -911,7 +911,7 @@ src/pfr/pfr.i: src/pfr/pfr.c.i
 
 # target to preprocess a source file
 src/pfr/pfr.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.i
 .PHONY : src/pfr/pfr.c.i
 
 src/pfr/pfr.s: src/pfr/pfr.c.s
@@ -919,7 +919,7 @@ src/pfr/pfr.s: src/pfr/pfr.c.s
 
 # target to generate assembly for a file
 src/pfr/pfr.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.s
 .PHONY : src/pfr/pfr.c.s
 
 src/psaux/psaux.o: src/psaux/psaux.c.o
@@ -927,7 +927,7 @@ src/psaux/psaux.o: src/psaux/psaux.c.o
 
 # target to build an object file
 src/psaux/psaux.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.o
 .PHONY : src/psaux/psaux.c.o
 
 src/psaux/psaux.i: src/psaux/psaux.c.i
@@ -935,7 +935,7 @@ src/psaux/psaux.i: src/psaux/psaux.c.i
 
 # target to preprocess a source file
 src/psaux/psaux.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.i
 .PHONY : src/psaux/psaux.c.i
 
 src/psaux/psaux.s: src/psaux/psaux.c.s
@@ -943,7 +943,7 @@ src/psaux/psaux.s: src/psaux/psaux.c.s
 
 # target to generate assembly for a file
 src/psaux/psaux.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.s
 .PHONY : src/psaux/psaux.c.s
 
 src/pshinter/pshinter.o: src/pshinter/pshinter.c.o
@@ -951,7 +951,7 @@ src/pshinter/pshinter.o: src/pshinter/pshinter.c.o
 
 # target to build an object file
 src/pshinter/pshinter.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.o
 .PHONY : src/pshinter/pshinter.c.o
 
 src/pshinter/pshinter.i: src/pshinter/pshinter.c.i
@@ -959,7 +959,7 @@ src/pshinter/pshinter.i: src/pshinter/pshinter.c.i
 
 # target to preprocess a source file
 src/pshinter/pshinter.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.i
 .PHONY : src/pshinter/pshinter.c.i
 
 src/pshinter/pshinter.s: src/pshinter/pshinter.c.s
@@ -967,7 +967,7 @@ src/pshinter/pshinter.s: src/pshinter/pshinter.c.s
 
 # target to generate assembly for a file
 src/pshinter/pshinter.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.s
 .PHONY : src/pshinter/pshinter.c.s
 
 src/psnames/psnames.o: src/psnames/psnames.c.o
@@ -975,7 +975,7 @@ src/psnames/psnames.o: src/psnames/psnames.c.o
 
 # target to build an object file
 src/psnames/psnames.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.o
 .PHONY : src/psnames/psnames.c.o
 
 src/psnames/psnames.i: src/psnames/psnames.c.i
@@ -983,7 +983,7 @@ src/psnames/psnames.i: src/psnames/psnames.c.i
 
 # target to preprocess a source file
 src/psnames/psnames.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.i
 .PHONY : src/psnames/psnames.c.i
 
 src/psnames/psnames.s: src/psnames/psnames.c.s
@@ -991,7 +991,7 @@ src/psnames/psnames.s: src/psnames/psnames.c.s
 
 # target to generate assembly for a file
 src/psnames/psnames.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.s
 .PHONY : src/psnames/psnames.c.s
 
 src/raster/raster.o: src/raster/raster.c.o
@@ -999,7 +999,7 @@ src/raster/raster.o: src/raster/raster.c.o
 
 # target to build an object file
 src/raster/raster.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.o
 .PHONY : src/raster/raster.c.o
 
 src/raster/raster.i: src/raster/raster.c.i
@@ -1007,7 +1007,7 @@ src/raster/raster.i: src/raster/raster.c.i
 
 # target to preprocess a source file
 src/raster/raster.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.i
 .PHONY : src/raster/raster.c.i
 
 src/raster/raster.s: src/raster/raster.c.s
@@ -1015,7 +1015,7 @@ src/raster/raster.s: src/raster/raster.c.s
 
 # target to generate assembly for a file
 src/raster/raster.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.s
 .PHONY : src/raster/raster.c.s
 
 src/sdf/sdf.o: src/sdf/sdf.c.o
@@ -1023,7 +1023,7 @@ src/sdf/sdf.o: src/sdf/sdf.c.o
 
 # target to build an object file
 src/sdf/sdf.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.o
 .PHONY : src/sdf/sdf.c.o
 
 src/sdf/sdf.i: src/sdf/sdf.c.i
@@ -1031,7 +1031,7 @@ src/sdf/sdf.i: src/sdf/sdf.c.i
 
 # target to preprocess a source file
 src/sdf/sdf.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.i
 .PHONY : src/sdf/sdf.c.i
 
 src/sdf/sdf.s: src/sdf/sdf.c.s
@@ -1039,7 +1039,7 @@ src/sdf/sdf.s: src/sdf/sdf.c.s
 
 # target to generate assembly for a file
 src/sdf/sdf.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.s
 .PHONY : src/sdf/sdf.c.s
 
 src/sfnt/sfnt.o: src/sfnt/sfnt.c.o
@@ -1047,7 +1047,7 @@ src/sfnt/sfnt.o: src/sfnt/sfnt.c.o
 
 # target to build an object file
 src/sfnt/sfnt.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o
 .PHONY : src/sfnt/sfnt.c.o
 
 src/sfnt/sfnt.i: src/sfnt/sfnt.c.i
@@ -1055,7 +1055,7 @@ src/sfnt/sfnt.i: src/sfnt/sfnt.c.i
 
 # target to preprocess a source file
 src/sfnt/sfnt.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.i
 .PHONY : src/sfnt/sfnt.c.i
 
 src/sfnt/sfnt.s: src/sfnt/sfnt.c.s
@@ -1063,7 +1063,7 @@ src/sfnt/sfnt.s: src/sfnt/sfnt.c.s
 
 # target to generate assembly for a file
 src/sfnt/sfnt.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.s
 .PHONY : src/sfnt/sfnt.c.s
 
 src/smooth/smooth.o: src/smooth/smooth.c.o
@@ -1071,7 +1071,7 @@ src/smooth/smooth.o: src/smooth/smooth.c.o
 
 # target to build an object file
 src/smooth/smooth.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.o
 .PHONY : src/smooth/smooth.c.o
 
 src/smooth/smooth.i: src/smooth/smooth.c.i
@@ -1079,7 +1079,7 @@ src/smooth/smooth.i: src/smooth/smooth.c.i
 
 # target to preprocess a source file
 src/smooth/smooth.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.i
 .PHONY : src/smooth/smooth.c.i
 
 src/smooth/smooth.s: src/smooth/smooth.c.s
@@ -1087,7 +1087,7 @@ src/smooth/smooth.s: src/smooth/smooth.c.s
 
 # target to generate assembly for a file
 src/smooth/smooth.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.s
 .PHONY : src/smooth/smooth.c.s
 
 src/svg/svg.o: src/svg/svg.c.o
@@ -1095,7 +1095,7 @@ src/svg/svg.o: src/svg/svg.c.o
 
 # target to build an object file
 src/svg/svg.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.o
 .PHONY : src/svg/svg.c.o
 
 src/svg/svg.i: src/svg/svg.c.i
@@ -1103,7 +1103,7 @@ src/svg/svg.i: src/svg/svg.c.i
 
 # target to preprocess a source file
 src/svg/svg.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.i
 .PHONY : src/svg/svg.c.i
 
 src/svg/svg.s: src/svg/svg.c.s
@@ -1111,7 +1111,7 @@ src/svg/svg.s: src/svg/svg.c.s
 
 # target to generate assembly for a file
 src/svg/svg.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.s
 .PHONY : src/svg/svg.c.s
 
 src/truetype/truetype.o: src/truetype/truetype.c.o
@@ -1119,7 +1119,7 @@ src/truetype/truetype.o: src/truetype/truetype.c.o
 
 # target to build an object file
 src/truetype/truetype.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.o
 .PHONY : src/truetype/truetype.c.o
 
 src/truetype/truetype.i: src/truetype/truetype.c.i
@@ -1127,7 +1127,7 @@ src/truetype/truetype.i: src/truetype/truetype.c.i
 
 # target to preprocess a source file
 src/truetype/truetype.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.i
 .PHONY : src/truetype/truetype.c.i
 
 src/truetype/truetype.s: src/truetype/truetype.c.s
@@ -1135,7 +1135,7 @@ src/truetype/truetype.s: src/truetype/truetype.c.s
 
 # target to generate assembly for a file
 src/truetype/truetype.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.s
 .PHONY : src/truetype/truetype.c.s
 
 src/type1/type1.o: src/type1/type1.c.o
@@ -1143,7 +1143,7 @@ src/type1/type1.o: src/type1/type1.c.o
 
 # target to build an object file
 src/type1/type1.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.o
 .PHONY : src/type1/type1.c.o
 
 src/type1/type1.i: src/type1/type1.c.i
@@ -1151,7 +1151,7 @@ src/type1/type1.i: src/type1/type1.c.i
 
 # target to preprocess a source file
 src/type1/type1.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.i
 .PHONY : src/type1/type1.c.i
 
 src/type1/type1.s: src/type1/type1.c.s
@@ -1159,7 +1159,7 @@ src/type1/type1.s: src/type1/type1.c.s
 
 # target to generate assembly for a file
 src/type1/type1.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.s
 .PHONY : src/type1/type1.c.s
 
 src/type42/type42.o: src/type42/type42.c.o
@@ -1167,7 +1167,7 @@ src/type42/type42.o: src/type42/type42.c.o
 
 # target to build an object file
 src/type42/type42.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.o
 .PHONY : src/type42/type42.c.o
 
 src/type42/type42.i: src/type42/type42.c.i
@@ -1175,7 +1175,7 @@ src/type42/type42.i: src/type42/type42.c.i
 
 # target to preprocess a source file
 src/type42/type42.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.i
 .PHONY : src/type42/type42.c.i
 
 src/type42/type42.s: src/type42/type42.c.s
@@ -1183,7 +1183,7 @@ src/type42/type42.s: src/type42/type42.c.s
 
 # target to generate assembly for a file
 src/type42/type42.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.s
 .PHONY : src/type42/type42.c.s
 
 src/winfonts/winfnt.o: src/winfonts/winfnt.c.o
@@ -1191,7 +1191,7 @@ src/winfonts/winfnt.o: src/winfonts/winfnt.c.o
 
 # target to build an object file
 src/winfonts/winfnt.c.o:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.o
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.o
 .PHONY : src/winfonts/winfnt.c.o
 
 src/winfonts/winfnt.i: src/winfonts/winfnt.c.i
@@ -1199,7 +1199,7 @@ src/winfonts/winfnt.i: src/winfonts/winfnt.c.i
 
 # target to preprocess a source file
 src/winfonts/winfnt.c.i:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.i
 .PHONY : src/winfonts/winfnt.c.i
 
 src/winfonts/winfnt.s: src/winfonts/winfnt.c.s
@@ -1207,7 +1207,7 @@ src/winfonts/winfnt.s: src/winfonts/winfnt.c.s
 
 # target to generate assembly for a file
 src/winfonts/winfnt.c.s:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(MAKE) $(MAKESILENT) -f _deps/freetype-build/CMakeFiles/freetype.dir/build.make _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.s
 .PHONY : src/winfonts/winfnt.c.s
 
 # Help Target
@@ -1363,6 +1363,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

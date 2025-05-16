@@ -27,9 +27,9 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(freetype-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/freetype/freetype.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "VER-2-13-2" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "/usr/local/bin/cmake" "-DFREETYPE_DIR=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src" "-P" "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake"
-                    SOURCE_DIR          "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src"
-                    BINARY_DIR          "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/freetype/freetype.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "VER-2-13-2" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "/usr/local/bin/cmake" "-DFREETYPE_DIR=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src" "-P" "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake"
+                    SOURCE_DIR          "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src"
+                    BINARY_DIR          "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

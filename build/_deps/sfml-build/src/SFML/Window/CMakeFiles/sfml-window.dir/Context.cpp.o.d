@@ -1,5 +1,5 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/Context.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/Context.cpp \
   /usr/local/include/SFML/Window/Context.hpp \
   /usr/local/include/SFML/Window/Export.hpp \
   /usr/local/include/SFML/Config.hpp \
@@ -813,7 +813,7 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/byteswap.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/GlContext.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src/SFML/Window/GlContext.hpp \
   /usr/local/include/SFML/Window/ContextSettings.hpp \
   /usr/local/include/SFML/System/Err.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \

@@ -1,6 +1,6 @@
 src/CMakeFiles/Platformer.dir/model/Player.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Player.cpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/model/Player.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Player.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/Player.hpp \
   /usr/local/include/SFML/System/Vector2.hpp \
   /usr/local/include/SFML/System/Export.hpp \
   /usr/local/include/SFML/Config.hpp \

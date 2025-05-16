@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
+CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build
+CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage/build
 
 # Utility rule file for copy_assets.
 
@@ -67,7 +67,7 @@ include CMakeFiles/copy_assets.dir/compiler_depend.make
 include CMakeFiles/copy_assets.dir/progress.make
 
 CMakeFiles/copy_assets:
-	/usr/local/bin/cmake -E copy_directory /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/assets /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/bin/assets
+	/usr/local/bin/cmake -E copy_directory /Users/mikatepe/C_Kurs/Task_A_Vorlage/assets /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/bin/assets
 
 CMakeFiles/copy_assets.dir/codegen:
 .PHONY : CMakeFiles/copy_assets.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/copy_assets.dir/clean:
 .PHONY : CMakeFiles/copy_assets.dir/clean
 
 CMakeFiles/copy_assets.dir/depend:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles/copy_assets.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mikatepe/C_Kurs/Task_A_Vorlage /Users/mikatepe/C_Kurs/Task_A_Vorlage /Users/mikatepe/C_Kurs/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles/copy_assets.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/copy_assets.dir/depend
 

@@ -1,6 +1,6 @@
 src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/PlayerControl.cpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/PlayerControl.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/PlayerControl.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/PlayerControl.hpp \
   /usr/local/include/SFML/Graphics.hpp \
   /usr/local/include/SFML/Graphics/BlendMode.hpp \
   /usr/local/include/SFML/Graphics/Export.hpp \
@@ -1082,6 +1082,6 @@ src/CMakeFiles/Platformer.dir/control/PlayerControl.cpp.o: \
   /usr/local/include/SFML/System/InputStream.hpp \
   /usr/local/include/SFML/System/MemoryInputStream.hpp \
   /usr/local/include/SFML/System/Sleep.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/../model/Player.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/../view/Layer.hpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/control/../model/Platform.hpp
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../model/Player.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../view/Layer.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../model/Platform.hpp

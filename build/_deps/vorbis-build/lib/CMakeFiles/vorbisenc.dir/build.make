@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage
+CMAKE_SOURCE_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build
+CMAKE_BINARY_DIR = /Users/mikatepe/C_Kurs/Task_A_Vorlage/build
 
 # Include any dependencies generated for this target.
 include _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend.make
@@ -75,16 +75,16 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/codegen:
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/flags.make
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o: _deps/vorbis-src/lib/vorbisenc.c
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o -MF CMakeFiles/vorbisenc.dir/vorbisenc.c.o.d -o CMakeFiles/vorbisenc.dir/vorbisenc.c.o -c /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisenc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o -MF CMakeFiles/vorbisenc.dir/vorbisenc.c.o.d -o CMakeFiles/vorbisenc.dir/vorbisenc.c.o -c /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisenc.c
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vorbisenc.dir/vorbisenc.c.i"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisenc.c > CMakeFiles/vorbisenc.dir/vorbisenc.c.i
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisenc.c > CMakeFiles/vorbisenc.dir/vorbisenc.c.i
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vorbisenc.dir/vorbisenc.c.s"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisenc.c -o CMakeFiles/vorbisenc.dir/vorbisenc.c.s
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-src/lib/vorbisenc.c -o CMakeFiles/vorbisenc.dir/vorbisenc.c.s
 
 # Object files for target vorbisenc
 vorbisenc_OBJECTS = \
@@ -96,19 +96,19 @@ vorbisenc_EXTERNAL_OBJECTS =
 _deps/sfml-build/lib/libvorbisenc.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.o
 _deps/sfml-build/lib/libvorbisenc.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/build.make
 _deps/sfml-build/lib/libvorbisenc.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../sfml-build/lib/libvorbisenc.a"
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib && $(CMAKE_COMMAND) -P CMakeFiles/vorbisenc.dir/cmake_clean_target.cmake
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vorbisenc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../sfml-build/lib/libvorbisenc.a"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib && $(CMAKE_COMMAND) -P CMakeFiles/vorbisenc.dir/cmake_clean_target.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vorbisenc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/build: _deps/sfml-build/lib/libvorbisenc.a
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/build
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/clean:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib && $(CMAKE_COMMAND) -P CMakeFiles/vorbisenc.dir/cmake_clean.cmake
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib && $(CMAKE_COMMAND) -P CMakeFiles/vorbisenc.dir/cmake_clean.cmake
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/clean
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend:
-	cd /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-src/lib /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/mikatepe/C_Kurs/Task_A_Vorlage/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mikatepe/C_Kurs/Task_A_Vorlage /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-src/lib /Users/mikatepe/C_Kurs/Task_A_Vorlage/build /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend
 

@@ -27,9 +27,9 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(ogg-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/xiph/ogg.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.3.5" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "/usr/local/bin/cmake" "-DOGG_DIR=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-src" "-P" "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/tools/ogg/PatchOgg.cmake"
-                    SOURCE_DIR          "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-src"
-                    BINARY_DIR          "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/xiph/ogg.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.3.5" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "/usr/local/bin/cmake" "-DOGG_DIR=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-src" "-P" "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/tools/ogg/PatchOgg.cmake"
+                    SOURCE_DIR          "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-src"
+                    BINARY_DIR          "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

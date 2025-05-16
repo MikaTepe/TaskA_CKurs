@@ -1,18 +1,18 @@
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/type1cid.c \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidgload.c \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidload.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftstream.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/ft2build.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/ftheader.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftsystem.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftobjs.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftrender.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftmodapi.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/freetype.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-build/include/freetype/config/ftconfig.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-build/include/freetype/config/ftoption.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/ftstdlib.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/type1cid.c \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidgload.c \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidload.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftstream.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/ft2build.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/ftheader.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftsystem.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftobjs.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftrender.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftmodapi.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/freetype.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-build/include/freetype/config/ftconfig.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-build/include/freetype/config/ftoption.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/ftstdlib.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_header_macro.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
@@ -125,59 +125,59 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___va_copy.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/integer-types.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/public-macros.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/mac-support.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/integer-types.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/public-macros.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/config/mac-support.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/fttypes.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftimage.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/fttypes.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftimage.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/fterrors.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftmoderr.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/fterrdef.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftglyph.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftsizes.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftlcdfil.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftparams.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftmemory.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/compiler-macros.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftgloadr.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftdrv.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/autohint.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftserv.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftcalc.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftincrem.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidparse.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/t1types.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/t1tables.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/pshints.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/fthash.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svpscmap.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/psaux.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/tttypes.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/tttables.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftcolor.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftmm.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/cfftypes.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/cffotypes.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidgload.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidobjs.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftdebug.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftoutln.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftdriver.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/ciderrs.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidload.c \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidtoken.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidobjs.c \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidparse.c \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidriver.c \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidriver.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftpsprop.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svpostnm.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svfntfmt.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svpsinfo.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svcid.h \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svprop.h
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/fterrors.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftmoderr.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/fterrdef.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftglyph.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftsizes.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftlcdfil.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftparams.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftmemory.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/compiler-macros.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftgloadr.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftdrv.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/autohint.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftserv.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftcalc.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftincrem.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidparse.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/t1types.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/t1tables.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/pshints.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/fthash.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svpscmap.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/psaux.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/tttypes.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/tttables.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftcolor.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftmm.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/cfftypes.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/cffotypes.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidgload.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidobjs.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftdebug.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftoutln.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/ftdriver.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/ciderrs.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidload.c \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidtoken.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidobjs.c \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidparse.c \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidriver.c \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/src/cid/cidriver.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/ftpsprop.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svpostnm.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svfntfmt.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svpsinfo.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svcid.h \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include/freetype/internal/services/svprop.h

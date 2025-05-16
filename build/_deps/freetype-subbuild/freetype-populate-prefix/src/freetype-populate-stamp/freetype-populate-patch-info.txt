@@ -2,5 +2,5 @@
 # The update step will be re-executed if anything in this file changes.
 # No other meaning or use of this file is supported.
 
-command=/usr/local/bin/cmake;-DFREETYPE_DIR=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src;-P;/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake
-work_dir=/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src
+command=/usr/local/bin/cmake;-DFREETYPE_DIR=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src;-P;/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake
+work_dir=/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src

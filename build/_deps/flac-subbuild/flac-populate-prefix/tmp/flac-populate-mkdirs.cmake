@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-src")
-  file(MAKE_DIRECTORY "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-src")
+if(NOT EXISTS "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-src")
+  file(MAKE_DIRECTORY "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-src")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-build"
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix"
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/tmp"
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp"
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src"
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-build"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/tmp"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

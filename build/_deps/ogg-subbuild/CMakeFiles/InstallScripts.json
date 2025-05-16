@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/ogg-subbuild/cmake_install.cmake"
+		"/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/ogg-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

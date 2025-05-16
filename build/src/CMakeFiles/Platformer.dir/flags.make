@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include
+CXX_INCLUDES = -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include
 
 CXX_FLAGS = -O3 -g -Wall -Werror -pedantic -std=gnu++20
 

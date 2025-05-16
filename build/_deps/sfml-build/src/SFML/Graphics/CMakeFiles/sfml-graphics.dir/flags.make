@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSFML_STATIC -DSTBI_FAILURE_USERMSG
 
-CXX_INCLUDES = -I/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/src -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/include -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/extlibs/headers/stb_image -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-build/include -isystem /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/build/_deps/freetype-src/include
+CXX_INCLUDES = -I/Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/src -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/include -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/extlibs/headers/stb_image -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-build/include -isystem /Users/mikatepe/C_Kurs/Task_A_Vorlage/build/_deps/freetype-src/include
 
 CXX_FLAGS = -O3 -g -Wall -Werror -pedantic -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option
 

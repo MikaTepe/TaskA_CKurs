@@ -1,6 +1,6 @@
 src/CMakeFiles/Platformer.dir/view/Layer.cpp.o: \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/view/Layer.cpp \
-  /Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/view/Layer.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/view/Layer.cpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/view/Layer.hpp \
   /usr/local/include/SFML/Graphics.hpp \
   /usr/local/include/SFML/Graphics/BlendMode.hpp \
   /usr/local/include/SFML/Graphics/Export.hpp \

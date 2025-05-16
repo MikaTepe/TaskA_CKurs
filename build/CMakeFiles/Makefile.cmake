@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/CMakeLists.txt"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/CMakeLists.txt"
   "CMakeFiles/4.0.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeOBJCCompiler.cmake"
@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.2/CMakeSystem.cmake"
   "_deps/flac-src/CMakeLists.txt"
   "_deps/flac-src/cmake/CheckA64NEON.cmake"
+  "_deps/flac-src/cmake/CheckCPUArch.c.in"
   "_deps/flac-src/cmake/CheckCPUArch.cmake"
   "_deps/flac-src/cmake/UseSystemExtensions.cmake"
   "_deps/flac-src/config.cmake.h.in"
@@ -49,7 +50,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/vorbis-src/vorbis.pc.in"
   "_deps/vorbis-src/vorbisenc.pc.in"
   "_deps/vorbis-src/vorbisfile.pc.in"
-  "/Users/mikatepe/C_Kurs/cpp-sommersemester-2025/Task_A_Vorlage/src/CMakeLists.txt"
+  "/Users/mikatepe/C_Kurs/Task_A_Vorlage/src/CMakeLists.txt"
   "/usr/local/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/usr/local/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/local/share/cmake/Modules/CMakeCInformation.cmake"
