@@ -1,70 +1,70 @@
 #include "Game.hpp"
-
 #include <SFML/Window/Keyboard.hpp>
 
-Game::Game() : window(sf::VideoMode({600u, 600u}), "Spiel"),
-    view(sf::FloatRect(sf::Vector2f({0,-600}), sf::Vector2f({600,600}))),
-    game_layer(window),
-    player_control(game_layer)  {
-    // limit frame rate
+Game::Game()
+    : window(sf::VideoMode({600u, 600u}), "Spiel mit Plattformen"),
+      view(sf::FloatRect(sf::Vector2f({0, -600}), sf::Vector2f({600, 600}))),
+      game_layer(window),
+      player_control(game_layer)
+{
     window.setFramerateLimit(60);
-
-    // set the view (visible area) for our game
     game_layer.set_view(view);
+
+    // Plattformen initialisieren (Positionen anpassen nach Spielwelt)
+    platforms.emplace_back(sf::Vector2f(100.f, -100.f));
+    platforms.emplace_back(sf::Vector2f(250.f, -200.f));
+    platforms.emplace_back(sf::Vector2f(400.f, -300.f));
 }
 
-void Game::start() {
-    // The clock is needed to control the speed of movement
+void Game::start()
+{
     sf::Clock clock;
-
-    while (window.isOpen()) {
-        // Restart the clock and save the elapsed time into elapsed_time
-        sf::Time elapsed_time = clock.restart();
- 
-        // handle input, check if window is still open
-        if (!input()) {
-            // update the scene according to the passed time
-            update(elapsed_time.asSeconds());
-            // draw the scene
+    while (window.isOpen())
+    {
+        sf::Time elapsed = clock.restart();
+        if (!input())
+        {
+            update(elapsed.asSeconds());
             draw();
         }
     }
 }
 
-// returns true, if the window has been closed
-bool Game::input() {
-    while (std::optional<sf::Event> event = window.pollEvent()) {
-        if (event->is<sf::Event::Closed>()) {
-            // quit
+bool Game::input()
+{
+    while (auto event = window.pollEvent())
+    {
+        if (event->is<sf::Event::Closed>())
+        {
             window.close();
             return true;
         }
-        // TODO: Process other events
-        // examples:
-        //if (const auto* keyPressed = event->getIf<sf::Event::KeyPressed>()) {
-            //if (keyPressed->code == sf::Keyboard::Key::Right) { // right arrow key pressed
-                // ...
-        // if (const auto* keyReleased = event->getIf<sf::Event::KeyReleased>()) {
-            // if (keyReleased->code == sf::Keyboard::Key::Right) { // right arrow released
-                // ...
+        // TODO: Weitere Eingaben (Tasten, Maus) verarbeiten
     }
     return false;
 }
 
-void Game::update(float time_passed) {
-    // TODO: check if the character jumps on any platform
-
-    // update the character's position with the current time stamp
-    player_control.update_player(time_passed);
+void Game::update(float dt)
+{
+    // TODO: Kollision mit Plattformen prüfen und Sprung-Logik
+    player_control.update_player(dt);
 }
 
-void Game::draw() {
+void Game::draw()
+{
     window.clear();
-
-    // draw the game elements (platforms and character)
     game_layer.clear();
-    player_control.draw_player();
-    game_layer.draw();
 
+    // Plattformen zeichnen
+    for (auto &platform : platforms)
+    {
+        game_layer.draw(platform.get_shape());
+    }
+
+    // Spielfigur zeichnen
+    player_control.draw_player();
+
+    // Alle Objekte auf die Leinwand bringen
+    game_layer.draw();
     window.display();
 }

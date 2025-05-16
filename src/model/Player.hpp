@@ -48,4 +48,4 @@ private:
     VerticalDirection verticalDirection = VerticalDirection::None;
 };
 
-#endif // PLAYER_H
+#endif

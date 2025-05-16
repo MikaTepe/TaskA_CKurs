@@ -2,38 +2,30 @@
 #define GAME_H
 
 #include <SFML/Graphics.hpp>
+#include "../model/Platform.hpp"
+#include <vector>
 
 #include "PlayerControl.hpp"
 #include "../view/Layer.hpp"
 
-// Game class 
-class Game {
-
+// Spiel-Klasse: Hauptklasse für Fenster, Eingabe, Update und Rendering
+class Game
+{
 public:
-    //initialize the game (window and controls)
-    Game();
-
-    // start the game
-    void start();
+    Game();       // Konstruktor: Fenster und Steuerungen initialisieren
+    void start(); // Spielschleife starten
 
 private:
-    // processes user input, returns true if window has been closed
-    bool input();
+    bool input();          // Eingaben verarbeiten, true bei Fenster-Schließung
+    void update(float dt); // Spiellogik aktualisieren
+    void draw();           // Szene zeichnen
 
-    // updates all game elements
-    void update(float time_passed);
+    sf::RenderWindow window; // SFML-Fenster
+    sf::View view;           // Kamerasicht
+    Layer game_layer;        // Zeichnungsebene
 
-    // draws the scene
-    void draw();
-
-    sf::RenderWindow window;
-
-    // view area and layers
-    sf::View view;
-    Layer game_layer;
-
-    // Controls for different parts of the game
-    PlayerControl player_control;
+    PlayerControl player_control;    // Steuerung der Spielfigur
+    std::vector<Platform> platforms; // Liste der Plattformen
 };
 
 #endif
