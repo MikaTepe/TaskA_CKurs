@@ -5,7 +5,7 @@
 Player::Player()
     : texture(), sprite(texture), position(300.f, 0.f), horizontalDirection(HorizontalDirection::None), verticalDirection(VerticalDirection::None)
 {
-    if (!texture.loadFromFile("assets/images/spritesheet.png"))
+    if (!texture.loadFromFile("assets/images/spritesheet_bread.png"))
         throw std::invalid_argument("Spritesheet nicht gefunden");
 
     sprite.setTexture(texture);

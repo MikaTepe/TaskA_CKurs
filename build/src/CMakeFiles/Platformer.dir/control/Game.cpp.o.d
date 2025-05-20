@@ -1082,7 +1082,7 @@ src/CMakeFiles/Platformer.dir/control/Game.cpp.o: \
   /usr/local/include/SFML/System/InputStream.hpp \
   /usr/local/include/SFML/System/MemoryInputStream.hpp \
   /usr/local/include/SFML/System/Sleep.hpp \
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../model/Platform.hpp \
   /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/PlayerControl.hpp \
   /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../model/Player.hpp \
-  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../view/Layer.hpp \
-  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../model/Platform.hpp
+  /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/control/../view/Layer.hpp

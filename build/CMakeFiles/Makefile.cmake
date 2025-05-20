@@ -15,7 +15,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.2/CMakeSystem.cmake"
   "_deps/flac-src/CMakeLists.txt"
   "_deps/flac-src/cmake/CheckA64NEON.cmake"
-  "_deps/flac-src/cmake/CheckCPUArch.c.in"
   "_deps/flac-src/cmake/CheckCPUArch.cmake"
   "_deps/flac-src/cmake/UseSystemExtensions.cmake"
   "_deps/flac-src/config.cmake.h.in"

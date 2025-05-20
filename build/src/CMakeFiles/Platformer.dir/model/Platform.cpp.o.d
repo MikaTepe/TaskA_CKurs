@@ -1010,17 +1010,24 @@ src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/PlayerControl.hpp \
-  /usr/local/include/SFML/Graphics.hpp \
-  /usr/local/include/SFML/Graphics/CircleShape.hpp \
-  /usr/local/include/SFML/Graphics/ConvexShape.hpp \
-  /usr/local/include/SFML/Graphics/Font.hpp \
-  /usr/local/include/SFML/Graphics/Glyph.hpp \
-  /usr/local/include/SFML/Graphics/Image.hpp \
-  /usr/local/include/SFML/Graphics/RenderTarget.hpp \
-  /usr/local/include/SFML/Graphics/View.hpp \
-  /usr/local/include/SFML/Graphics/RenderTexture.hpp \
+  /usr/local/include/SFML/Window.hpp \
+  /usr/local/include/SFML/Window/Clipboard.hpp \
+  /usr/local/include/SFML/Window/Context.hpp \
   /usr/local/include/SFML/Window/ContextSettings.hpp \
-  /usr/local/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/local/include/SFML/Window/Cursor.hpp \
+  /usr/local/include/SFML/Window/Event.hpp \
+  /usr/local/include/SFML/Window/Joystick.hpp \
+  /usr/local/include/SFML/System/String.hpp \
+  /usr/local/include/SFML/System/Utf.hpp \
+  /usr/local/include/SFML/System/Utf.inl \
+  /usr/local/include/SFML/System/String.inl \
+  /usr/local/include/SFML/Window/Keyboard.hpp \
+  /usr/local/include/SFML/Window/Mouse.hpp \
+  /usr/local/include/SFML/Window/Sensor.hpp \
+  /usr/local/include/SFML/System/Vector3.hpp \
+  /usr/local/include/SFML/System/Vector3.inl \
+  /usr/local/include/SFML/Window/Event.inl \
+  /usr/local/include/SFML/Window/Touch.hpp \
   /usr/local/include/SFML/Window/VideoMode.hpp \
   /usr/local/include/SFML/Window/Window.hpp \
   /usr/local/include/SFML/Window/WindowBase.hpp \
@@ -1054,29 +1061,7 @@ src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars.h \
   /usr/local/include/SFML/System/Time.inl \
   /usr/local/include/SFML/Window/WindowBase.inl \
-  /usr/local/include/SFML/Window/Event.hpp \
-  /usr/local/include/SFML/Window/Joystick.hpp \
-  /usr/local/include/SFML/System/String.hpp \
-  /usr/local/include/SFML/System/Utf.hpp \
-  /usr/local/include/SFML/System/Utf.inl \
-  /usr/local/include/SFML/System/String.inl \
-  /usr/local/include/SFML/Window/Keyboard.hpp \
-  /usr/local/include/SFML/Window/Mouse.hpp \
-  /usr/local/include/SFML/Window/Sensor.hpp \
-  /usr/local/include/SFML/System/Vector3.hpp \
-  /usr/local/include/SFML/System/Vector3.inl \
-  /usr/local/include/SFML/Window/Event.inl \
   /usr/local/include/SFML/System/Clock.hpp \
-  /usr/local/include/SFML/Graphics/Shader.hpp \
-  /usr/local/include/SFML/Graphics/Glsl.hpp \
-  /usr/local/include/SFML/Graphics/Glsl.inl \
-  /usr/local/include/SFML/Graphics/Text.hpp \
-  /usr/local/include/SFML/Graphics/VertexBuffer.hpp \
-  /usr/local/include/SFML/Window.hpp \
-  /usr/local/include/SFML/Window/Clipboard.hpp \
-  /usr/local/include/SFML/Window/Context.hpp \
-  /usr/local/include/SFML/Window/Cursor.hpp \
-  /usr/local/include/SFML/Window/Touch.hpp \
   /usr/local/include/SFML/System.hpp \
   /usr/local/include/SFML/System/Err.hpp \
   /usr/local/include/SFML/System/Exception.hpp \
@@ -1084,6 +1069,21 @@ src/CMakeFiles/Platformer.dir/model/Platform.cpp.o: \
   /usr/local/include/SFML/System/InputStream.hpp \
   /usr/local/include/SFML/System/MemoryInputStream.hpp \
   /usr/local/include/SFML/System/Sleep.hpp \
+  /usr/local/include/SFML/Graphics.hpp \
+  /usr/local/include/SFML/Graphics/CircleShape.hpp \
+  /usr/local/include/SFML/Graphics/ConvexShape.hpp \
+  /usr/local/include/SFML/Graphics/Font.hpp \
+  /usr/local/include/SFML/Graphics/Glyph.hpp \
+  /usr/local/include/SFML/Graphics/Image.hpp \
+  /usr/local/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/local/include/SFML/Graphics/View.hpp \
+  /usr/local/include/SFML/Graphics/RenderTexture.hpp \
+  /usr/local/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/local/include/SFML/Graphics/Shader.hpp \
+  /usr/local/include/SFML/Graphics/Glsl.hpp \
+  /usr/local/include/SFML/Graphics/Glsl.inl \
+  /usr/local/include/SFML/Graphics/Text.hpp \
+  /usr/local/include/SFML/Graphics/VertexBuffer.hpp \
   /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/../model/Player.hpp \
   /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/../view/Layer.hpp \
   /Users/mikatepe/C_Kurs/Task_A_Vorlage/src/model/../control/../model/Platform.hpp

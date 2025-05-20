@@ -1,38 +1,43 @@
-#ifndef PLAYERCONTROL_H
-#define PLAYERCONTROL_H
+#ifndef PLAYERCONTROL_HPP
+#define PLAYERCONTROL_HPP
 
-#include <SFML/Graphics.hpp>
-
+#include <SFML/Window.hpp>   // sf::Keyboard::Key
+#include <SFML/System.hpp>   // sf::Vector2f
+#include <SFML/Graphics.hpp> // sf::FloatRect
 #include "../model/Player.hpp"
 #include "../view/Layer.hpp"
 #include "../model/Platform.hpp"
 
+/// Steuerungsklasse für die Spielfigur
 class PlayerControl
 {
 public:
-    // initialize control with layer
     PlayerControl(Layer &layer);
 
-    // determine the position of the character depending on the current movement
     void update_player(float elapsed_time);
-
-    // draw the character to the layer
     void draw_player();
+    bool collides_with(const Platform &platform) const;
+    void start_jump();
+    void on_key_pressed(sf::Keyboard::Key key);
+    void on_key_released(sf::Keyboard::Key key);
+    float get_height() const;
 
-    // TODO implement more methods to control the character's movements
+    sf::Vector2f getPosition() const;
+    void setPosition(const sf::Vector2f &pos);
+    sf::FloatRect getBounds() const;
+    VerticalDirection getVerticalDirection() const;
+    void stop_jump();
+
+    // Direktes Setzen der vertikalen Geschwindigkeit
+    void setVelocityY(float v);
 
 private:
-    // player object
-    Player player;
+    Player player;       ///< Modell der Spielfigur
+    Layer &layer;        ///< Zeichen-Ebene
+    float velocityY = 0; ///< Aktuelle vertikale Geschwindigkeit
 
-    // layer on which the character is drawn
-    Layer &layer;
-
-    // time in current jump
-    [[maybe_unused]] float jump_time = 0;
-
-    // height at which the current jump started
-    [[maybe_unused]] float jump_start_height = 0;
+    static constexpr float GRAVITY = 1000.f;
+    static constexpr float JUMP_SPEED = 400.f;
 };
 
-#endif
+#endif // PLAYERCONTROL_HPP#
